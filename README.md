@@ -25,6 +25,8 @@ If you are on windows you will need `uv` which can be installed via PowerShell:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+You can package this app with `uv run flet pack main.py` to create a standalone executable for your platform.
+
 ## Features
 
 This showcase demonstrates a wide variety of Flet controls organized into expandable panels:
