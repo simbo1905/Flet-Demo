@@ -19,6 +19,12 @@ If you are using something like WSL ubuntu you may need to add a lot of graphica
 bash wsl.sh
 ``` 
 
+If you are on windows you will need `uv` which can be installed via PowerShell:
+
+```ps1
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
 ## Features
 
 This showcase demonstrates a wide variety of Flet controls organized into expandable panels:
