@@ -5,9 +5,19 @@ A comprehensive demonstration application showcasing the interactive UI controls
 ## Quick Start
 
 ```bash
-uv sync
+uv sync --all-extras
+# run it in webserver mode
+uv run flet run main.py --web
+# run it in native mode needs lots of graphical libraries see wsl note below
 uv run main.py
 ```
+
+If you are using something like WSL ubuntu you may need to add a lot of graphical libraries to run it in native mode:
+
+```
+# install graphical libs on ubuntu YMMV
+bash wsl.sh
+``` 
 
 ## Features
 
